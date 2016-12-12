@@ -11,10 +11,12 @@ import android.widget.TextView;
 
 public class Main2Activity extends AppCompatActivity {
     EditText t1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         t1=(EditText) findViewById(R.id.textView);
+        //tt
     }
 }
