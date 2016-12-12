@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sarveshchavan777csgo.mapsapp.MainActivity"
+    >
+    <item
+        android:id="@+id/maptypenone"
+        android:title="@string/map_type_none" />
+    <item
+        android:id="@+id/maptypenormal"
+        android:orderInCategory="100"
+        android:title="@string/map_type_normal" />
+    <item
+        android:id="@+id/maptypeterrain"
+        android:orderInCategory="100"
+        android:title="@string/map_type_terrain" />
+    <item
+        android:id="@+id/maptypesatellite"
+        android:orderInCategory="100"
+        android:title="@string/map_type_satellite" />
+    <item
+        android:id="@+id/maptypehybrid"
+        android:orderInCategory="100"
+        android:title="@string/map_type_hybrid" />
+</menu>
