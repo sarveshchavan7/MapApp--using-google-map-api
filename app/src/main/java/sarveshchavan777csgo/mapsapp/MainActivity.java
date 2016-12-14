@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
        // }
         //}
         //mGoogleMap.setMyLocationEnabled(true);
-     /*   mGoogleApiClient = new GoogleApiClient.Builder(this)
+     /*  mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .addApi(LocationServices.API)
                 .addConnectionCallbacks(this)
                 .addOnConnectionFailedListener(this)
@@ -220,6 +220,14 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             case R.id.maptypehybrid:
                 mGoogleMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
                 break;
+            case R.id.locateu:
+                mGoogleApiClient = new GoogleApiClient.Builder(this)
+                        .addApi(LocationServices.API)
+                        .addConnectionCallbacks(this)
+                        .addOnConnectionFailedListener(this)
+                        .build();
+                mGoogleApiClient.connect();
+                break;
             default:
                 break;
         }
@@ -236,7 +244,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
 
-/*
+
 
         Location mLastLocation = LocationServices.FusedLocationApi.getLastLocation(
                 mGoogleApiClient);
@@ -250,7 +258,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
             mGoogleMap.addMarker(markerOptions);
         }
-*/
+
 
 
 

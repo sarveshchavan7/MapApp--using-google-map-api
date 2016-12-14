@@ -22,4 +22,8 @@
         android:id="@+id/maptypehybrid"
         android:orderInCategory="100"
         android:title="@string/map_type_hybrid" />
+    <item
+        android:id="@+id/locateu"
+        android:orderInCategory="100"
+        android:title="Locate your self" />
 </menu>
