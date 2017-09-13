@@ -6,7 +6,7 @@
 <a href="url1"><img src="https://cloud.githubusercontent.com/assets/22947683/21282027/2850cf38-c3a6-11e6-9cd4-b5610daf3be9.jpeg" align="left" height="400" width="180" ></a>
 
 ### you can select diffent type of map like satellite,hybrid,terrain etc
-eg-satellite looks like this ->
+###eg-satellite looks like this ->
 <a href="url11"><img src="https://cloud.githubusercontent.com/assets/22947683/21282028/2bc73094-c3a6-11e6-840f-7a22e8e3d3e8.jpeg" align="left" height="400" width="180" ></a>
 
 ### The most Imp feature of this app is you can locate you location using gps setting Note-:make user that your internet connection is good!& gps is turned on
